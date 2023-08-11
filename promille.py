@@ -16,7 +16,6 @@ while True:
     \033[0m                                                                                                                 
     """)
 
-
     AlkG = float(input("Wie viel Gramm Alkohol hast du getrunken? "))
     WeightI = float(input("Wie viel wiegst du? "))
     StundenI = float(input("Wie viele Stunden sind seit dem letzten Drink vergangen? "))
