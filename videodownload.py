@@ -1,5 +1,3 @@
-import os
-
 from pytube import YouTube
 
 input_url = input("Enter the url of the video you want to download: ")

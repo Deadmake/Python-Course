@@ -5,6 +5,5 @@ for x in results:
     total += x
 print(total)
 
-
 average = total / len(results)
 print(average)

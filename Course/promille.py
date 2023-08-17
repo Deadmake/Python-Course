@@ -17,12 +17,12 @@ while True:
     """)
 
     AlkG = float(input("Wie viel Gramm Alkohol hast du getrunken? "))
-    WeightI = float(input("Wie viel wiegst du? "))
-    StundenI = float(input("Wie viele Stunden sind seit dem letzten Drink vergangen? "))
+    Weight = float(input("Wie viel wiegst du? "))
+    Stunden = float(input("Wie viele Stunden sind seit dem letzten Drink vergangen? "))
 
-    Promille = round(AlkG / (WeightI * 0.7) - 0.15 * StundenI, 2)
+    Promille = round(AlkG / (Weight * 0.7) - 0.15 * Stunden, 2)
 
-    if AlkG <= 0 or WeightI <= 0 or StundenI <= 0:
+    if AlkG <= 0 or Weight <= 0 or Stunden <= 0:
         print("\033[91m" + "404 - ERROR")
         input("Drück ENTER um fortzufahren...")
         os.system('cls' if os.name == 'nt' else 'clear')

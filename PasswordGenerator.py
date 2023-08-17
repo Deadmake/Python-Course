@@ -14,8 +14,6 @@ window = customtkinter.CTk()
 window.title("Password Generator")
 window.geometry("500x500")
 window.resizable(True, False)
-window.iconbitmap("pwgen.ico")
-
 #---------------------------------------------# 
 
 
